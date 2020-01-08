@@ -1,0 +1,8 @@
+include ':app'
+include ':SharedCode'
+include ":JavaFxApp"
+include ":JsApp"
+include ':backend'
+
+// Deshabilitar para Android / Habilitar para iOS
+enableFeaturePreview('GRADLE_METADATA')
